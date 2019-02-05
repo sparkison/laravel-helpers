@@ -1,0 +1,34 @@
+{
+    "name": "nerdymind/helpers",
+    "description": "Helper classes dependency for Laravel Enso",
+    "keywords": [
+        "bright-minded-media",
+        "helpers"
+    ],
+    "homepage": "https://github.com/sparkison/laravel-helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaun Parkison",
+            "email": "hello@brightmindedmedia.com",
+            "homepage": "https://www.brightmindedmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelEnso\\Helpers\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "EnsoException": "LaravelEnso\\Helpers\\app\\Exceptions\\EnsoException"
+            }
+        }
+    }
+}
